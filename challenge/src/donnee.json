@@ -1,493 +1,475 @@
 {
-    "images": [
-      {
-        "url": "./public/img/Laracroft.jpg",
-        "reponse": ["Lara Croft"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/fugu.jpg",
-        "reponse": ["fugu"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/doigby.jpg",
-        "reponse": ["doigby","doig"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/lock.jpeg",
-        "reponse": ["lock","lockclear"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/gota.jpeg",
-        "reponse": ["gota","gotaga","french monster"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/zen.jpeg",
-        "reponse": ["zen"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/mawkzy.png",
-        "reponse": ["mawkzy"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Nether.jpeg",
-        "reponse": ["nether"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/R2d2.jpeg",
-        "reponse": ["RDD2","red dead redemption 2","red dead redemption","RDD"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Cyberpunk.jpeg",
-        "reponse": ["Cyberpunk 2077","Cyberpunk"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Night CityCyberpunk.jpeg",
-        "reponse": ["NightCity","Night City"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/Hyrule.jpg",
-        "reponse": ["Hyrule"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/SoulCalibur",
-        "reponse": ["Soulcalibur"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Azeroth.jpg",
-        "reponse": ["azeroth"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/Wow.jpeg",
-        "reponse": ["wow","World of Warcraft","worldofwarcraft"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Dot.jpg",
-        "reponse": ["dota","dota2","dota 2"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Tetrus.jpeg",
-        "reponse": ["tetris"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/TiltedTower.jpeg",
-        "reponse": ["tiltedtower","tilted tower"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/SummerRift.jpeg",
-        "reponse": ["summenor's rift","summenors rift","summenorsrift"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/De_dust2_new_v4.jpg",
-        "reponse": ["D2","Dust2","dust 2","dustii"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/zywoo.jpg",
-        "reponse": ["zywoo"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/S1mple.jpg",
-        "reponse": ["s1mple","simple"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Bugha.jpg",
-        "reponse": ["buga","bugha"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Tenz.jpeg",
-        "reponse": ["tenz","zzzzzzzzzz","sen tenz"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/PUBG.jpeg",
-        "reponse": ["pubg","play unknown battleground","pubg battleground"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Kings Canyon.jpg",
-        "reponse": ["kingscanyon","kings canyon","king canyon"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url":"./public/img/CS Banana.jpeg",
-        "reponse":["inferno","banana"],
-        "valeur":3,
-        "type":"lieu"
-      },
-      {
-        "url":"./public/img/Valorant Lieu.jpeg",
-        "reponse":["haven","Clong","c long"],
-        "valeur":3,
-        "type":"lieu"
-      },
-      {
-        "url":"./public/img/Rl-Fennec.jpeg",
-        "reponse":["fennec"],
-        "valeur":2,
-        "type":"perso"
-      },
-      {
-        "url":"./public/img/RocketLeague.jpeg",
-        "reponse":["rocketleage","rocket league"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/SF Ryu.jpeg",
-        "reponse":["ryu"],
-        "valeur":2,
-        "type":"perso"
-      },
-      {
-        "url":"./public/img/SF.jpeg",
-        "reponse":["streetfighter","street fighter"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/Cod-Captaine Price.jpeg",
-        "reponse":["Captain Price"],
-        "valeur":2,
-        "type":"perso"
-      },
-      {
-        "url":"./public/img/Cod.jpeg",
-        "reponse":["Call of duty"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/GTA-trevor.jpeg",
-        "reponse":["Trevor"],
-        "valeur":2,
-        "type":"perso"
-      },
-      {
-        "url":"./public/img/GtA.jpg",
-        "reponse":["Gran thief auto","gtav","gta 5","gta"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/JustDance.jpeg",
-        "reponse":["justdance","just dance"],
-        "valeur":3,
-        "type":"lieu"
-      },
-      {
-        "url":"./public/img/DragonGuest.jpg",
-        "reponse":["dragon Guest"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/Horizon-Aloy.jpeg",
-        "reponse":["aloy"],
-        "valeur":2,
-        "type":"perso"
-      },
-      {
-        "url":"./public/img/Godofwar.jpeg",
-        "reponse":["god of war","godofwar"],
-        "valeur":1,
-        "type":"nom"
-      },
-      {
-        "url":"./public/img/Fifa-LionelMessi.jpg",
-        "reponse":["messi","lionel messi","goat"],
-        "valeur":2,
-        "type":"perso"
-      },{
-        
-        "url": "./public/img/Aku Aku (Bandicoot).jpg",
-        "reponse": ["Aku Aku"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Alan Wake.jpg",
-        "reponse": ["Alan Wake"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Arbre Monde.jpg",
-        "reponse": ["Arbre Monde"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        
-        "url": "./public/img/Ashen one.jpg",
-        "reponse": ["Ashen one"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Buster Sword (ff7).jpg",
-        "reponse": ["Buster Sword"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "Leon Scott Resident Evil.webp",
-        "reponse": ["Leon Scott Kennedy","Leon Scott"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Madeline.jpg",
-        "reponse": ["Madeline"],
-        
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Pac-Man arene.jpg",
-        "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        
-        "url": "./public/img/Scorpion Mortal kombat.jpg",
-        "reponse": ["Scorpion"],
-        
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Sims.png",
-        "reponse": ["Sims", "Les Sims","Sims 4", "Les Sims 4"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/sledge.jpg",
-        "reponse": ["Sledge"],
-        
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/splatoon arene.jpg",
-        "reponse": ["Splatoon", "Splatoon 2"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        "url": "./public/img/Undertale.png",
-        
-        "reponse": ["Undertale"],
-        "valeur": 3,
-        "type": "lieu"
-      },
-      {
-        
-        "url": "./public/img/Vault Boy (Fallout).jpg",
-        "reponse": ["Vault Boy", "Fallout"],
-        
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/zelda.jpg",
-        "reponse": ["Zelda", "The Legend of Zelda"],
-        
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Fifa.jpg",
-        "reponse": ["Fifa"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/Assassin's CreedNro.jpg",
-        "reponse": ["Assassin's Creed","Assassins creed","assassincreed"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/Halo-MasterChief.jpeg",
-        "reponse": ["MasterChief", "Master Chief"],
-        "valeur": 2,
-        
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Halo.jpg",
-        "reponse": ["Halo"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/Pikmin-Olimar.png",
-        "reponse": ["Olimar"],
-        "valeur": 2,
-        
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Pikmin.jpg",
-        "reponse": ["Pikmin"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/Cuphead-Cuphead.jpeg",
-        "reponse": ["Cuphead"],
-        "valeur": 2,
-        
-        "type": "perso"
-      },
-      {
-        
-        "url": "./public/img/Cuphead.jpeg",
-        "reponse": ["Cuphead"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        
-        "url": "./public/img/ZeldaTotk-Ganondolf.jpg",
-        "reponse": ["Ganondolf"],
-        "valeur": 2,
-        
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/ZeldaTotk.jpg",
-        "reponse": ["Zelda Totk"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/TheWitcher-Gerald.jpg",
-        "reponse": ["Gerald"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/TheWitcher.jpg",
-        "reponse": ["The Witcher"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/-cappy.jpeg",
-        "reponse": ["Cappy"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/MOdyssey.jpeg",
-        "reponse": ["Super Mario Odyssey"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Lol-jinx.jpeg",
-        "reponse": ["Jinx"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Lol.jpeg",
-        "reponse": ["League of Legends"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/",
-        "reponse": ["Steve"],
-        "valeur": 1,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Miçnecraft-steve.jpg",
-        "reponse": ["Minecraft"],
-        "valeur": 1,
-        "type": "nom"
-      },
-      {
-        "url": "./public/img/Fprtnite-Jonesy.jpg",
-        "reponse": ["Jonesy"],
-        "valeur": 2,
-        "type": "perso"
-      },
-      {
-        "url": "./public/img/Forntite.jpg",
-        "reponse": ["Fortnite"],
-        "valeur": 1,
-        "type": "nom"
-      }
-    ]
-  }
+  "images": [
+    {
+      "url": "/img/Laracroft.jpg",
+      "reponse": ["Lara Croft"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/fugu.jpg",
+      "reponse": ["fugu"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/doigby.jpg",
+      "reponse": ["doigby", "doig"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/lock.jpeg",
+      "reponse": ["lock", "lockclear"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/gota.jpeg",
+      "reponse": ["gota", "gotaga", "french monster"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/zen.jpeg",
+      "reponse": ["zen"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/mawkzy.png",
+      "reponse": ["mawkzy"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Nether.jpeg",
+      "reponse": ["nether"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/R2d2.jpeg",
+      "reponse": [
+        "RDD2",
+        "red dead redemption 2",
+        "red dead redemption",
+        "RDD"
+      ],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Cyberpunk.jpeg",
+      "reponse": ["Cyberpunk 2077", "Cyberpunk"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Night CityCyberpunk.jpeg",
+      "reponse": ["NightCity", "Night City"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Hyrule.jpg",
+      "reponse": ["Hyrule"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/SoulCalibur",
+      "reponse": ["Soulcalibur"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Azeroth.jpg",
+      "reponse": ["azeroth"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Wow.jpeg",
+      "reponse": ["wow", "World of Warcraft", "worldofwarcraft"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Dot.jpg",
+      "reponse": ["dota", "dota2", "dota 2"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Tetrus.jpeg",
+      "reponse": ["tetris"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/TiltedTower.jpeg",
+      "reponse": ["tiltedtower", "tilted tower"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/SummerRift.jpeg",
+      "reponse": ["summenor's rift", "summenors rift", "summenorsrift"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/De_dust2_new_v4.jpg",
+      "reponse": ["D2", "Dust2", "dust 2", "dustii"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/zywoo.jpg",
+      "reponse": ["zywoo"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/S1mple.jpg",
+      "reponse": ["s1mple", "simple"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Bugha.jpg",
+      "reponse": ["buga", "bugha"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Tenz.jpeg",
+      "reponse": ["tenz", "zzzzzzzzzz", "sen tenz"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/PUBG.jpeg",
+      "reponse": ["pubg", "play unknown battleground", "pubg battleground"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Kings Canyon.jpg",
+      "reponse": ["kingscanyon", "kings canyon", "king canyon"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/CS Banana.jpeg",
+      "reponse": ["inferno", "banana"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Valorant Lieu.jpeg",
+      "reponse": ["haven", "Clong", "c long"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Rl-Fennec.jpeg",
+      "reponse": ["fennec"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/RocketLeague.jpeg",
+      "reponse": ["rocketleage", "rocket league"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/SF Ryu.jpeg",
+      "reponse": ["ryu"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/SF.jpeg",
+      "reponse": ["streetfighter", "street fighter"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Cod-Captaine Price.jpeg",
+      "reponse": ["Captain Price"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Cod.jpeg",
+      "reponse": ["Call of duty"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/GTA-trevor.jpeg",
+      "reponse": ["Trevor"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/GtA.jpg",
+      "reponse": ["Gran thief auto", "gtav", "gta 5", "gta"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/JustDance.jpeg",
+      "reponse": ["justdance", "just dance"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/DragonGuest.jpg",
+      "reponse": ["dragon Guest"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Horizon-Aloy.jpeg",
+      "reponse": ["aloy"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Godofwar.jpeg",
+      "reponse": ["god of war", "godofwar"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Fifa-LionelMessi.jpg",
+      "reponse": ["messi", "lionel messi", "goat"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Aku Aku (Bandicoot).jpg",
+      "reponse": ["Aku Aku"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Alan Wake.jpg",
+      "reponse": ["Alan Wake"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Arbre Monde.jpg",
+      "reponse": ["Arbre Monde"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Ashen one.jpg",
+      "reponse": ["Ashen one"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Buster Sword (ff7).jpg",
+      "reponse": ["Buster Sword"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Leon Scott Resident Evil.webp",
+      "reponse": ["Leon Scott Kennedy", "Leon Scott"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Madeline.jpg",
+      "reponse": ["Madeline"],
 
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Pac-Man arene.jpg",
+      "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Scorpion Mortal kombat.jpg",
+      "reponse": ["Scorpion"],
+
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Sims.png",
+      "reponse": ["Sims", "Les Sims", "Sims 4", "Les Sims 4"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/sledge.jpg",
+      "reponse": ["Sledge"],
+
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/splatoon arene.jpg",
+      "reponse": ["Splatoon", "Splatoon 2"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Undertale.png",
+
+      "reponse": ["Undertale"],
+      "valeur": 3,
+      "type": "lieu"
+    },
+    {
+      "url": "/img/Vault Boy (Fallout).jpg",
+      "reponse": ["Vault Boy", "Fallout"],
+
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/zelda.jpg",
+      "reponse": ["Zelda", "The Legend of Zelda"],
+
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Fifa.jpg",
+      "reponse": ["Fifa"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Assassin's CreedNro.jpg",
+      "reponse": ["Assassin's Creed", "Assassins creed", "assassincreed"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Halo-MasterChief.jpeg",
+      "reponse": ["MasterChief", "Master Chief"],
+      "valeur": 2,
+
+      "type": "perso"
+    },
+    {
+      "url": "/img/Halo.jpg",
+      "reponse": ["Halo"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Pikmin-Olimar.png",
+      "reponse": ["Olimar"],
+      "valeur": 2,
+
+      "type": "perso"
+    },
+    {
+      "url": "/img/Pikmin.jpg",
+      "reponse": ["Pikmin"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Cuphead-Cuphead.jpeg",
+      "reponse": ["Cuphead"],
+      "valeur": 2,
+
+      "type": "perso"
+    },
+    {
+      "url": "/img/Cuphead.jpeg",
+      "reponse": ["Cuphead"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/ZeldaTotk-Ganondolf.jpg",
+      "reponse": ["Ganondolf"],
+      "valeur": 2,
+
+      "type": "perso"
+    },
+    {
+      "url": "/img/ZeldaTotk.jpg",
+      "reponse": ["Zelda Totk"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/TheWitcher-Gerald.jpg",
+      "reponse": ["Gerald"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/TheWitcher.jpg",
+      "reponse": ["The Witcher"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/-cappy.jpeg",
+      "reponse": ["Cappy"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/MOdyssey.jpeg",
+      "reponse": ["Super Mario Odyssey"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Lol-jinx.jpeg",
+      "reponse": ["Jinx"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Lol.jpeg",
+      "reponse": ["League of Legends"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/",
+      "reponse": ["Steve"],
+      "valeur": 1,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Miçnecraft-steve.jpg",
+      "reponse": ["Minecraft"],
+      "valeur": 1,
+      "type": "nom"
+    },
+    {
+      "url": "/img/Fprtnite-Jonesy.jpg",
+      "reponse": ["Jonesy"],
+      "valeur": 2,
+      "type": "perso"
+    },
+    {
+      "url": "/img/Forntite.jpg",
+      "reponse": ["Fortnite"],
+      "valeur": 1,
+      "type": "nom"
+    }
+  ]
+}
