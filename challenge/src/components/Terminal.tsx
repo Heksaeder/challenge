@@ -29,6 +29,9 @@ const Terminal = () => {
   const [currentIndice, setCurrentIndice] = useState<string | null>(null);
   const [lastIndiceTime, setLastIndiceTime] = useState(0);
 
+  const username = "visitor";
+  const outputRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeElapsed((prevTime) => prevTime + 1);
@@ -59,9 +62,6 @@ const Terminal = () => {
       return () => clearTimeout(timer);
     }
   }, [currentIndice]);
-
-  const username = "visitor";
-  const outputRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const input = document.getElementById("commandInput") as HTMLInputElement;
