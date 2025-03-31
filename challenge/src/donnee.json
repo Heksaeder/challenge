@@ -1,0 +1,466 @@
+{
+    "images": [
+      {
+        "url": "",
+        "reponse": ["The Witcher", "Witcher", "The Witcher 3"],
+        "valeur": 1,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Lara Croft"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["fugu"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["doigby","doig"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["lock","lockclear"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["gota","gotaga","french monster"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["zen"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["mawzy"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["nether"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["RDD2","red dead redemption 2","red dead redemption","RDD"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["Cyberpunk 2077","Cyberpunk"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["NightCity","Night City"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Hyrule"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Soulcalibur"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["azeroth"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["wow","World of Warcraft","worldofwarcraft"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["dota","dota2","dota 2"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["tetris"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["tiltedtower","tilted tower"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["summenor's rift","summenors rift","summenorsrift"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["D2","Dust2","dust 2","dustii"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["zywoo"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["s1mple","simple"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["buga","bugha"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["tenz","zzzzzzzzzz","sen tenz"],
+        "valeur": 2,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["pubg","play unknown battleground","pubg battleground"],
+        "valeur": 1,
+        "type": "nom"
+      },
+      {
+        "url": "",
+        "reponse": ["kingscanyon","kings canyon","king canyon"],
+        "valeur": 3,
+        "type": "lieux"
+      },
+      {
+        "url":"",
+        "reponse":["inferno","banana"],
+        "valeur":3,
+        "type":"lieux"
+      },
+      {
+        "url":"",
+        "reponse":["haven","Clong","c long"],
+        "valeur":3,
+        "type":"lieux"
+      },
+      {
+        "url":"",
+        "reponse":["fennec"],
+        "valeur":2,
+        "type":"perso"
+      },
+      {
+        "url":"",
+        "reponse":["rocketleage","rocket league"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["ryu"],
+        "valeur":2,
+        "type":"perso"
+      },
+      {
+        "url":"",
+        "reponse":["streetfighter","street fighter"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["Captain Price"],
+        "valeur":2,
+        "type":"perso"
+      },
+      {
+        "url":"",
+        "reponse":["Call of duty"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["Trevor"],
+        "valeur":2,
+        "type":"perso"
+      },
+      {
+        "url":"",
+        "reponse":["Gran thief auto","gtav","gta 5","gta"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["justdance","just dance"],
+        "valeur":3,
+        "type":"lieux"
+      },
+      {
+        "url":"",
+        "reponse":["dragon Guest"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["aloy"],
+        "valeur":2,
+        "type":"perso"
+      },
+      {
+        "url":"",
+        "reponse":["god of war","godofwar"],
+        "valeur":1,
+        "type":"nom"
+      },
+      {
+        "url":"",
+        "reponse":["messi","lionel messi","goat"],
+        "valeur":2,
+        "type":"perso"
+      },{
+        "url": "",
+        "reponse": ["Aku Aku"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Alan Wake"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Arbre Monde"],
+        "valeur": 1,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Ashen one"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Buster Sword"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Leon Scott Kennedy","Leon Scott"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Madeline"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
+        "valeur": 1,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Scorpion"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Sims", "Les Sims","Sims 4", "Les Sims 4"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Sledge"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Splatoon", "Splatoon 2"],
+        "valeur": 1,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Undertale"],
+        "valeur": 1,
+        "type": "lieux"
+      },
+      {
+        "url": "",
+        "reponse": ["Vault Boy", "Fallout"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Zelda", "The Legend of Zelda"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Fifa"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Assassin's Creed"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["MasterChief", "Master Chief"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Halo"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Olimar"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Pikmin"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Cuphead"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Cuphead"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Ganondolf"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Zelda Totk"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Gerald"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["The Witcher"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Cappy"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Super Mario Odyssey"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Jinx"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["League of Legends"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Steve"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Minecraft"],
+        "valeur": 1,
+        "type": "jeux"
+      },
+      {
+        "url": "",
+        "reponse": ["Jonesy"],
+        "valeur": 1,
+        "type": "perso"
+      },
+      {
+        "url": "",
+        "reponse": ["Fortnite"],
+        "valeur": 1,
+        "type": "jeux"
+      }
+    ]
+  }
+  
