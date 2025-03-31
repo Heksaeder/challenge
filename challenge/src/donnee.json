@@ -1,13 +1,7 @@
 {
     "images": [
       {
-        "url": "",
-        "reponse": ["The Witcher", "Witcher", "The Witcher 3"],
-        "valeur": 1,
-        "type": "lieux"
-      },
-      {
-        "url": "",
+        "url": "./public/img/Laracroft",
         "reponse": ["Lara Croft"],
         "valeur": 2,
         "type": "perso"
@@ -52,7 +46,7 @@
         "url": "",
         "reponse": ["nether"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -70,13 +64,13 @@
         "url": "",
         "reponse": ["NightCity","Night City"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
         "reponse": ["Hyrule"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -88,7 +82,7 @@
         "url": "",
         "reponse": ["azeroth"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -112,19 +106,19 @@
         "url": "",
         "reponse": ["tiltedtower","tilted tower"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
         "reponse": ["summenor's rift","summenors rift","summenorsrift"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
         "reponse": ["D2","Dust2","dust 2","dustii"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -160,19 +154,19 @@
         "url": "",
         "reponse": ["kingscanyon","kings canyon","king canyon"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url":"",
         "reponse":["inferno","banana"],
         "valeur":3,
-        "type":"lieux"
+        "type":"lieu"
       },
       {
         "url":"",
         "reponse":["haven","Clong","c long"],
         "valeur":3,
-        "type":"lieux"
+        "type":"lieu"
       },
       {
         "url":"",
@@ -226,7 +220,7 @@
         "url":"",
         "reponse":["justdance","just dance"],
         "valeur":3,
-        "type":"lieux"
+        "type":"lieu"
       },
       {
         "url":"",
@@ -267,7 +261,7 @@
         "url": "",
         "reponse": ["Arbre Monde"],
         "valeur": 1,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -297,7 +291,7 @@
         "url": "",
         "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
         "valeur": 1,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -309,7 +303,7 @@
         "url": "",
         "reponse": ["Sims", "Les Sims","Sims 4", "Les Sims 4"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -321,13 +315,13 @@
         "url": "",
         "reponse": ["Splatoon", "Splatoon 2"],
         "valeur": 1,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
         "reponse": ["Undertale"],
         "valeur": 1,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "",
@@ -345,13 +339,13 @@
         "url": "",
         "reponse": ["Fifa"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
         "reponse": ["Assassin's Creed"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -363,7 +357,7 @@
         "url": "",
         "reponse": ["Halo"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -375,7 +369,7 @@
         "url": "",
         "reponse": ["Pikmin"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -387,7 +381,7 @@
         "url": "",
         "reponse": ["Cuphead"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -399,7 +393,7 @@
         "url": "",
         "reponse": ["Zelda Totk"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -411,7 +405,7 @@
         "url": "",
         "reponse": ["The Witcher"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -423,7 +417,7 @@
         "url": "",
         "reponse": ["Super Mario Odyssey"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -435,7 +429,7 @@
         "url": "",
         "reponse": ["League of Legends"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -447,7 +441,7 @@
         "url": "",
         "reponse": ["Minecraft"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       },
       {
         "url": "",
@@ -459,7 +453,7 @@
         "url": "",
         "reponse": ["Fortnite"],
         "valeur": 1,
-        "type": "jeux"
+        "type": "nom"
       }
     ]
   }
