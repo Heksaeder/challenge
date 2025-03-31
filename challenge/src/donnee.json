@@ -264,7 +264,7 @@
         "url": "./public/img/Arbre Monde.jpg",
         "reponse": ["Arbre Monde"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         
@@ -300,7 +300,7 @@
         "url": "./public/img/Pac-Man arene.jpg",
         "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         
@@ -330,14 +330,14 @@
         "url": "./public/img/splatoon arene.jpg",
         "reponse": ["Splatoon", "Splatoon 2"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         "url": "./public/img/Undertale.png",
         
         "reponse": ["Undertale"],
         "valeur": 3,
-        "type": "lieux"
+        "type": "lieu"
       },
       {
         
@@ -365,7 +365,7 @@
       {
         
         "url": "./public/img/Assassin's CreedNro.jpg",
-        "reponse": ["Assassin's Creed"],
+        "reponse": ["Assassin's Creed","Assassins creed","assassincreed"],
         "valeur": 1,
         "type": "nom"
       },
