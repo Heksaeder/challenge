@@ -246,215 +246,234 @@
         "valeur":2,
         "type":"perso"
       },{
-        "url": "",
+        "url": "./public/img/Aku Aku (Bandicoot).jpg",
         "reponse": ["Aku Aku"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Alan Wake.jpg",
         "reponse": ["Alan Wake"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Arbre Monde.jpg",
         "reponse": ["Arbre Monde"],
+<<<<<<< Updated upstream
         "valeur": 1,
         "type": "lieu"
+=======
+        "valeur": 3,
+        "type": "lieux"
+>>>>>>> Stashed changes
       },
       {
-        "url": "",
+        "url": "./public/img/Ashen one.jpg",
         "reponse": ["Ashen one"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Buster Sword (ff7).jpg",
         "reponse": ["Buster Sword"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "Leon Scott Resident Evil.webp",
         "reponse": ["Leon Scott Kennedy","Leon Scott"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Madeline.jpg",
         "reponse": ["Madeline"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Pac-Man arene.jpg",
         "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
+<<<<<<< Updated upstream
         "valeur": 1,
         "type": "lieu"
+=======
+        "valeur": 3,
+        "type": "lieux"
+>>>>>>> Stashed changes
       },
       {
-        "url": "",
+        "url": "./public/img/Scorpion Mortal kombat.jpg",
         "reponse": ["Scorpion"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Sims.png",
         "reponse": ["Sims", "Les Sims","Sims 4", "Les Sims 4"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/sledge.jpg",
         "reponse": ["Sledge"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/splatoon arene.jpg",
         "reponse": ["Splatoon", "Splatoon 2"],
+<<<<<<< Updated upstream
         "valeur": 1,
         "type": "lieu"
+=======
+        "valeur": 3,
+        "type": "lieux"
+>>>>>>> Stashed changes
       },
       {
-        "url": "",
+        "url": "./public/img/Undertale.png",
         "reponse": ["Undertale"],
+<<<<<<< Updated upstream
         "valeur": 1,
         "type": "lieu"
+=======
+        "valeur": 3,
+        "type": "lieux"
+>>>>>>> Stashed changes
       },
       {
-        "url": "",
+        "url": "./public/img/Vault Boy (Fallout).jpg",
         "reponse": ["Vault Boy", "Fallout"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/zelda.jpg",
         "reponse": ["Zelda", "The Legend of Zelda"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Fifa.jpg",
         "reponse": ["Fifa"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Assassin's CreedNro.jpg",
         "reponse": ["Assassin's Creed"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Halo-MasterChief.jpeg",
         "reponse": ["MasterChief", "Master Chief"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Halo.jpg",
         "reponse": ["Halo"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Pikmin-Olimar.png",
         "reponse": ["Olimar"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Pikmin.jpg",
         "reponse": ["Pikmin"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Cuphead-Cuphead.jpeg",
         "reponse": ["Cuphead"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Cuphead.jpeg",
         "reponse": ["Cuphead"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/ZeldaTotk-Ganondolf.jpg",
         "reponse": ["Ganondolf"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/ZeldaTotk.jpg",
         "reponse": ["Zelda Totk"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/TheWitcher-Gerald.jpg",
         "reponse": ["Gerald"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/TheWitcher.jpg",
         "reponse": ["The Witcher"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/-cappy.jpeg",
         "reponse": ["Cappy"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/MOdyssey.jpeg",
         "reponse": ["Super Mario Odyssey"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Lol-jinx.jpeg",
         "reponse": ["Jinx"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Lol.jpeg",
         "reponse": ["League of Legends"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/",
         "reponse": ["Steve"],
         "valeur": 1,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Miçnecraft-steve.jpg",
         "reponse": ["Minecraft"],
         "valeur": 1,
         "type": "nom"
       },
       {
-        "url": "",
+        "url": "./public/img/Fprtnite-Jonesy.jpg",
         "reponse": ["Jonesy"],
-        "valeur": 1,
+        "valeur": 2,
         "type": "perso"
       },
       {
-        "url": "",
+        "url": "./public/img/Forntite.jpg",
         "reponse": ["Fortnite"],
         "valeur": 1,
         "type": "nom"
       }
     ]
   }
-  
