@@ -12,7 +12,8 @@
       "url": "/img/fugu.jpg",
       "reponse": ["fugu"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Ton streamer preferé"
     },
     {
       "id": 3,
@@ -26,7 +27,8 @@
       "url": "/img/lock.jpeg",
       "reponse": ["locklear", "lock"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Ton streamer preferé"
     },
     {
       "id": 5,
@@ -208,7 +210,12 @@
     {
       "id": 26,
       "url": "/img/Kings Canyon.jpg",
-      "reponse": ["kings canyon", "kingscanyon", "king's canyon", "king canyon"],
+      "reponse": [
+        "kings canyon",
+        "kingscanyon",
+        "king's canyon",
+        "king canyon"
+      ],
       "valeur": 3,
       "type": "lieu",
       "indice": "La carte où les joueurs se battent pour la domination"

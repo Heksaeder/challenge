@@ -1,7 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import "./Terminal.css";
 
-const Terminal = () => {
+const Terminal = ({
+  indice,
+  timeSpent,
+}: {
+  indice: string;
+  timeSpent: number;
+}) => {
   const commands: {
     name: string;
     description: string;
@@ -25,43 +31,10 @@ const Terminal = () => {
     },
   ];
 
-  const [timeElapsed, setTimeElapsed] = useState(0);
   const [currentIndice, setCurrentIndice] = useState<string | null>(null);
-  const [lastIndiceTime, setLastIndiceTime] = useState(0);
 
   const username = "visitor";
   const outputRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeElapsed((prevTime) => prevTime + 1);
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  useEffect(() => {
-    if (timeElapsed >= 10 && lastIndiceTime < 10) {
-      setCurrentIndice("Ce jeu est sortie en 2010");
-      setLastIndiceTime(10);
-    } else if (timeElapsed >= 20 && lastIndiceTime < 20) {
-      setCurrentIndice("Ce jeu est sortie en 2018");
-      setLastIndiceTime(20);
-    } else if (timeElapsed >= 40 && lastIndiceTime < 40) {
-      setCurrentIndice("Ce jeu est sortie en 2015");
-      setLastIndiceTime(40);
-    }
-  }, [timeElapsed, lastIndiceTime]);
-
-  useEffect(() => {
-    if (currentIndice) {
-      const timer = setTimeout(() => {
-        setCurrentIndice(null);
-      }, 5000);
-
-      return () => clearTimeout(timer);
-    }
-  }, [currentIndice]);
 
   useEffect(() => {
     const input = document.getElementById("commandInput") as HTMLInputElement;
@@ -87,11 +60,12 @@ const Terminal = () => {
   }, []);
 
   useEffect(() => {
-    if (currentIndice) {
+    if (timeSpent >= 20000 && indice && !currentIndice) {
       appendUserInput("indice");
-      appendOutput(currentIndice);
+      appendOutput(indice);
+      setCurrentIndice(indice);
     }
-  }, [currentIndice]);
+  }, [timeSpent, indice, currentIndice]);
 
   function processCommand(userInput: string) {
     const [command, ...args] = userInput.split(" ");
@@ -103,7 +77,7 @@ const Terminal = () => {
       if (result) appendOutput(result);
       if (command === "nextstep") {
         commands.push({
-          name: "1234",
+          name: "6194",
           description: "Entrer le code",
           action: () => "Bravo vous avez gagné le challenge 48h !",
         });

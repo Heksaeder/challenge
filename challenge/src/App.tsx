@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
+import CountdownTimer from "./components/CountdownTimer";
+import GuessingGame from "./components/GuessingGame";
 import Terminal from "./components/Terminal";
 import donnee from "./donnee.json";
-import GuessingGame from "./components/GuessingGame";
-import CountdownTimer from "./components/CountdownTimer";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -11,9 +11,25 @@ function App() {
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState("");
   const [attempts, setAttempts] = useState(0);
+  const [timeSpent, setTimeSpent] = useState(0);
   const [typeMessage, setTypeMessage] = useState<"success" | "error" | "retry">(
-      "success"
+    "success"
   );
+
+  const startTime = useRef(Date.now());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeSpent(Date.now() - startTime.current);
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    startTime.current = Date.now();
+    setTimeSpent(0);
+  }, [currentImage]);
 
   const getTypeLabel = (type: string) => {
     switch (type) {
@@ -32,7 +48,7 @@ function App() {
     e.preventDefault();
     const currentItem = donnee.images[currentImage];
     const isCorrect = currentItem.reponse.some(
-        (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
+      (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
     );
 
     if (isCorrect) {
@@ -100,9 +116,12 @@ function App() {
         </div>
 
         <div className="main-container-content">
-          <CountdownTimer/>
-          <GuessingGame score={score} onScoreChange={handleScoreChange}/>
-          <Terminal />
+          <CountdownTimer />
+          <GuessingGame score={score} onScoreChange={handleScoreChange} />
+          <Terminal
+            indice={donnee.images[currentImage].indice || ""}
+            timeSpent={timeSpent}
+          />
         </div>
       </main>
     </>
