@@ -8,9 +8,9 @@ const Terminal = () => {
     action: () => string;
   }[] = [
     {
-      name: "terence",
+      name: "nextstep",
       description: "Voir Terence",
-      action: () => "Etape 2 aller voir Terence",
+      action: () => "Etape 2: allez voir Térence",
     },
     {
       name: "clear",
@@ -101,7 +101,7 @@ const Terminal = () => {
     if (cmd) {
       const result = cmd.action();
       if (result) appendOutput(result);
-      if (command === "terence") {
+      if (command === "nextstep") {
         commands.push({
           name: "1234",
           description: "Entrer le code",
