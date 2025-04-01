@@ -40,7 +40,8 @@
       "url": "/img/mawkzy.png",
       "reponse": ["mawkzy"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Joueur pro connu pour ses moves aériens"
     },
     {
       "url": "/img/Nether.jpeg",
@@ -69,25 +70,29 @@
       "url": "/img/Night CityCyberpunk.jpeg",
       "reponse": ["NightCity", "Night City"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Ville futuriste où la cybernétique règne en maître."
     },
     {
       "url": "/img/Hyrule.jpg",
       "reponse": ["Hyrule"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Terre légendaire du héros du temps."
     },
     {
       "url": "/img/SoulCalibur",
       "reponse": ["Soulcalibur"],
       "valeur": 1,
-      "type": "nom"
+      "type": "nom",
+      "indice": "L'arme de l'héros."
     },
     {
       "url": "/img/Azeroth.jpg",
       "reponse": ["azeroth"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Monde épique où l’Alliance et la Horde s’affrontent."
     },
     {
       "url": "/img/Wow.jpeg",
@@ -117,25 +122,29 @@
       "url": "/img/SummerRift.jpeg",
       "reponse": ["summenor's rift", "summenors rift", "summenorsrift"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Champ de bataille légendaire des invocateurs"
     },
     {
       "url": "/img/De_dust2_new_v4.jpg",
       "reponse": ["D2", "Dust2", "dust 2", "dustii"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "La carte mythique où les bombes font trembler les murs"
     },
     {
       "url": "/img/zywoo.jpg",
       "reponse": ["zywoo"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Le sniper français qui fait trembler la scène CS"
     },
     {
       "url": "/img/S1mple.jpg",
       "reponse": ["s1mple", "simple"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Le joueur ukrainien qui a marqué l'histoire du CS"
     },
     {
       "url": "/img/Bugha.jpg",
@@ -159,19 +168,22 @@
       "url": "/img/Kings Canyon.jpg",
       "reponse": ["kingscanyon", "kings canyon", "king canyon"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "La carte où les joueurs se battent pour la domination"
     },
     {
       "url": "/img/CS Banana.jpeg",
       "reponse": ["inferno", "banana"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Le chemin où les confrontations sont inévitables sur la carte légendaire."
     },
     {
       "url": "/img/Valorant Lieu.jpeg",
       "reponse": ["haven", "Clong", "c long"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Le site avec trois bombes, où tout peut arriver."
     },
     {
       "url": "/img/Rl-Fennec.jpeg",
@@ -255,7 +267,8 @@
       "url": "/img/Aku Aku (Bandicoot).jpg",
       "reponse": ["Aku Aku"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Le masque protecteur qui guide le héros dans ses aventures"
     },
     {
       "url": "/img/Alan Wake.jpg",
@@ -267,19 +280,22 @@
       "url": "/img/Arbre Monde.jpg",
       "reponse": ["Arbre Monde"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "Le lieu sacré où la vie et la magie sont liées"
     },
     {
       "url": "/img/Ashen one.jpg",
       "reponse": ["Ashen one"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "Le héros silencieux destiné à raviver la flamme dans un monde en ruines"
     },
     {
       "url": "/img/Buster Sword (ff7).jpg",
       "reponse": ["Buster Sword"],
       "valeur": 2,
-      "type": "perso"
+      "type": "perso",
+      "indice": "L’épée emblématique du mercenaire au cœur de l’aventure"
     },
     {
       "url": "/img/Leon Scott Resident Evil.webp",
@@ -324,7 +340,8 @@
       "url": "/img/splatoon arene.jpg",
       "reponse": ["Splatoon", "Splatoon 2"],
       "valeur": 3,
-      "type": "lieu"
+      "type": "lieu",
+      "indice": "L’arène où les couleurs s’affrontent pour la domination."
     },
     {
       "url": "/img/Undertale.png",
@@ -403,7 +420,8 @@
       "reponse": ["Ganondolf"],
       "valeur": 2,
 
-      "type": "perso"
+      "type": "perso",
+      "indice": "L’antagoniste maléfique à la quête de domination éternelle"
     },
     {
       "url": "/img/ZeldaTotk.jpg",
