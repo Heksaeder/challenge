@@ -104,6 +104,11 @@
   color: #ffffff;
 }
 
+.message.retry{
+  background-color: orange;
+  color: #1a1a1a;
+}
+
 .main-container-content {
   flex: 1;
   padding: 20px;

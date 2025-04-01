@@ -2,13 +2,15 @@ import { useState } from "react";
 import "./App.css";
 import Terminal from "./components/Terminal";
 import donnee from "./donnee.json";
+import { log } from "console";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState("");
-  const [typeMessage, setTypeMessage] = useState<"success" | "error">(
+  const [attempts, setAttempts] = useState(0);
+  const [typeMessage, setTypeMessage] = useState<"success" | "error" | "retry">(
     "success"
   );
 
@@ -31,21 +33,32 @@ function App() {
     const isCorrect = currentItem.reponse.some(
       (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
     );
-
+  
     if (isCorrect) {
       setScore(score + currentItem.valeur);
       setMessage(`Correct ! +${currentItem.valeur} points`);
       setTypeMessage("success");
-    } else {
-      setMessage(`Incorrect ! La réponse était : ${currentItem.reponse[0]}`);
+      setAttempts(0); 
+      setTimeout(() => {
+        setCurrentImage((prev) => (prev + 1) % donnee.images.length);
+        setUserAnswer("");
+        setMessage("");
+      }, 1000);
+    } else if (attempts >= 1) {
+      
+      setMessage(`Incorrect !}`);  // La réponse était : ${currentItem.reponse[0]
       setTypeMessage("error");
+      setAttempts(0);
+      setTimeout(() => {
+        setCurrentImage((prev) => (prev + 1) % donnee.images.length);
+        setUserAnswer("");
+        setMessage("");
+      }, 1000);
+    } else {
+      setMessage("Nope, réessaye !");
+      setTypeMessage("retry");
+      setAttempts(attempts + 1);
     }
-
-    setTimeout(() => {
-      setCurrentImage((prev) => (prev + 1) % donnee.images.length);
-      setUserAnswer("");
-      setMessage("");
-    }, 2000);
   };
 
   return (
@@ -56,6 +69,9 @@ function App() {
             <h2>Score: {score}</h2>
             <div className="type-indicator">
               Type: {getTypeLabel(donnee.images[currentImage].type)}
+            </div>
+            <div className="type-indicator">
+              Tentative: {attempts}/2
             </div>
           </div>
 

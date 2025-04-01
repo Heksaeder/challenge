@@ -20,13 +20,13 @@
     },
     {
       "url": "/img/lock.jpeg",
-      "reponse": ["lock", "lockclear"],
+      "reponse": ["lockclear", "lock"],
       "valeur": 2,
       "type": "perso"
     },
     {
       "url": "/img/gota.jpeg",
-      "reponse": ["gota", "gotaga", "french monster"],
+      "reponse": ["gotaga", "gota", "french monster"],
       "valeur": 2,
       "type": "perso"
     },
@@ -51,8 +51,8 @@
     {
       "url": "/img/R2d2.jpeg",
       "reponse": [
-        "RDD2",
         "red dead redemption 2",
+        "RDD2",
         "red dead redemption",
         "RDD"
       ],
@@ -73,12 +73,12 @@
     },
     {
       "url": "/img/Hyrule.jpg",
-      "reponse": ["Hyrule"],
+      "reponse": ["Hyrule","chateau d'hyrule","chateau hyrule","chateau dhyrule"],
       "valeur": 3,
       "type": "lieu"
     },
     {
-      "url": "/img/SoulCalibur",
+      "url": "/img/SoulCalibur.jpeg",
       "reponse": ["Soulcalibur"],
       "valeur": 1,
       "type": "nom"
@@ -91,13 +91,13 @@
     },
     {
       "url": "/img/Wow.jpeg",
-      "reponse": ["wow", "World of Warcraft", "worldofwarcraft"],
+      "reponse": ["World of Warcraft", "wow", "worldofwarcraft"],
       "valeur": 1,
       "type": "nom"
     },
     {
       "url": "/img/Dot.jpg",
-      "reponse": ["dota", "dota2", "dota 2"],
+      "reponse": ["dota 2", "dota2", "dota"],
       "valeur": 1,
       "type": "nom"
     },
@@ -109,19 +109,19 @@
     },
     {
       "url": "/img/TiltedTower.jpeg",
-      "reponse": ["tiltedtower", "tilted tower"],
+      "reponse": ["tilted tower", "tiltedtower","tilted"],
       "valeur": 3,
       "type": "lieu"
     },
     {
       "url": "/img/SummerRift.jpeg",
-      "reponse": ["summenor's rift", "summenors rift", "summenorsrift"],
+      "reponse": ["La faille de l'invocateur", "summenors rift", "summenorsrift","summenor's rift"],
       "valeur": 3,
       "type": "lieu"
     },
     {
       "url": "/img/De_dust2_new_v4.jpg",
-      "reponse": ["D2", "Dust2", "dust 2", "dustii"],
+      "reponse": ["dust 2", "Dust2", "D2", "dustii"],
       "valeur": 3,
       "type": "lieu"
     },
@@ -139,7 +139,7 @@
     },
     {
       "url": "/img/Bugha.jpg",
-      "reponse": ["buga", "bugha"],
+      "reponse": ["bugha", "buga"],
       "valeur": 2,
       "type": "perso"
     },
@@ -151,13 +151,13 @@
     },
     {
       "url": "/img/PUBG.jpeg",
-      "reponse": ["pubg", "play unknown battleground", "pubg battleground"],
+      "reponse": ["pubg battleground", "play unknown battleground", "pubg"],
       "valeur": 1,
       "type": "nom"
     },
     {
       "url": "/img/Kings Canyon.jpg",
-      "reponse": ["kingscanyon", "kings canyon", "king canyon"],
+      "reponse": ["kings canyon", "kingscanyon", "king canyon"],
       "valeur": 3,
       "type": "lieu"
     },
@@ -181,7 +181,7 @@
     },
     {
       "url": "/img/RocketLeague.jpeg",
-      "reponse": ["rocketleage", "rocket league"],
+      "reponse": ["rocket league", "rocketleague"],
       "valeur": 1,
       "type": "nom"
     },
@@ -193,19 +193,19 @@
     },
     {
       "url": "/img/SF.jpeg",
-      "reponse": ["streetfighter", "street fighter"],
+      "reponse": ["street fighter", "streetfighter"],
       "valeur": 1,
       "type": "nom"
     },
     {
       "url": "/img/Cod-Captaine Price.jpeg",
-      "reponse": ["Captain Price"],
+      "reponse": ["Captain Price","Price"],
       "valeur": 2,
       "type": "perso"
     },
     {
       "url": "/img/Cod.jpeg",
-      "reponse": ["Call of duty"],
+      "reponse": ["Call of duty","cod"],
       "valeur": 1,
       "type": "nom"
     },
@@ -217,19 +217,19 @@
     },
     {
       "url": "/img/GtA.jpg",
-      "reponse": ["Gran thief auto", "gtav", "gta 5", "gta"],
+      "reponse": ["Grand thief auto", "gtav", "gta 5", "gta"],
       "valeur": 1,
       "type": "nom"
     },
     {
       "url": "/img/JustDance.jpeg",
-      "reponse": ["justdance", "just dance"],
-      "valeur": 3,
-      "type": "lieu"
+      "reponse": ["just dance", "justdance"],
+      "valeur": 1,
+      "type": "nom"
     },
     {
       "url": "/img/DragonGuest.jpg",
-      "reponse": ["dragon Guest"],
+      "reponse": ["dragon quest","dragonquest"],
       "valeur": 1,
       "type": "nom"
     },
@@ -283,7 +283,7 @@
     },
     {
       "url": "/img/Leon Scott Resident Evil.webp",
-      "reponse": ["Leon Scott Kennedy", "Leon Scott"],
+      "reponse": ["Leon Scott Kennedy", "Leon Scott","leon"],
       "valeur": 2,
       "type": "perso"
     },
@@ -297,8 +297,8 @@
     {
       "url": "/img/Pac-Man arene.jpg",
       "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
-      "valeur": 3,
-      "type": "lieu"
+      "valeur": 1,
+      "type": "nom"
     },
     {
       "url": "/img/Scorpion Mortal kombat.jpg",
@@ -323,15 +323,15 @@
     {
       "url": "/img/splatoon arene.jpg",
       "reponse": ["Splatoon", "Splatoon 2"],
-      "valeur": 3,
-      "type": "lieu"
+      "valeur": 1,
+      "type": "nom"
     },
     {
       "url": "/img/Undertale.png",
 
       "reponse": ["Undertale"],
-      "valeur": 3,
-      "type": "lieu"
+      "valeur": 1,
+      "type": "nom"
     },
     {
       "url": "/img/Vault Boy (Fallout).jpg",
@@ -354,8 +354,8 @@
       "type": "nom"
     },
     {
-      "url": "/img/Assassin's CreedNro.jpg",
-      "reponse": ["Assassin's Creed", "Assassins creed", "assassincreed"],
+      "url": "/img/Assassin'sCreedBro.jpg",
+      "reponse": ["Assassin's Creed", "Assassins creed", "assassincreed","assassinscreed"],
       "valeur": 1,
       "type": "nom"
     },
@@ -400,14 +400,14 @@
     },
     {
       "url": "/img/ZeldaTotk-Ganondolf.jpg",
-      "reponse": ["Ganondolf"],
+      "reponse": ["Ganondolf","ganon"],
       "valeur": 2,
 
       "type": "perso"
     },
     {
       "url": "/img/ZeldaTotk.jpg",
-      "reponse": ["Zelda Totk"],
+      "reponse": ["Zelda Tears of Kingdom"],
       "valeur": 1,
       "type": "nom"
     },
@@ -431,7 +431,7 @@
     },
     {
       "url": "/img/MOdyssey.jpeg",
-      "reponse": ["Super Mario Odyssey"],
+      "reponse": ["Super Mario Odyssey","mario odyssey"],
       "valeur": 1,
       "type": "nom"
     },
@@ -448,25 +448,25 @@
       "type": "nom"
     },
     {
-      "url": "/img/",
+      "url": "/img/Minecraft-Steve.jpg",
       "reponse": ["Steve"],
       "valeur": 1,
       "type": "perso"
     },
     {
-      "url": "/img/Miçnecraft-steve.jpg",
+      "url": "/img/Minecraft.jpeg",
       "reponse": ["Minecraft"],
       "valeur": 1,
       "type": "nom"
     },
     {
-      "url": "/img/Fprtnite-Jonesy.jpg",
+      "url": "/img/Fornite-Jonesy.jpg",
       "reponse": ["Jonesy"],
       "valeur": 2,
       "type": "perso"
     },
     {
-      "url": "/img/Forntite.jpg",
+      "url": "/img/Fortnite.jpg",
       "reponse": ["Fortnite"],
       "valeur": 1,
       "type": "nom"
