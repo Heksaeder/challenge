@@ -137,7 +137,7 @@
     {
       "id": 18,
       "url": "/img/TiltedTower.jpeg",
-      "reponse": ["tilted tower", "tiltedtower", "tilted"],
+      "reponse": ["tilted towers", "tiltedtowers", "tilted"],
       "valeur": 3,
       "type": "lieu"
     },
@@ -146,9 +146,10 @@
       "url": "/img/SummerRift.jpeg",
       "reponse": [
         "La faille de l'invocateur",
-        "summenors rift",
-        "summenorsrift",
-        "summenor's rift"
+        "Faille de l'invocateur",
+        "summoners rift",
+        "summonersrift",
+        "summoner's rift"
       ],
       "valeur": 3,
       "type": "lieu",
