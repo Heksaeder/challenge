@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Terminal from "./components/Terminal";
 import donnee from "./donnee.json";
+import GuessingGame from "./components/GuessingGame";
+import CountdownTimer from "./components/CountdownTimer";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -10,7 +12,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [attempts, setAttempts] = useState(0);
   const [typeMessage, setTypeMessage] = useState<"success" | "error" | "retry">(
-    "success"
+      "success"
   );
 
   const getTypeLabel = (type: string) => {
@@ -30,7 +32,7 @@ function App() {
     e.preventDefault();
     const currentItem = donnee.images[currentImage];
     const isCorrect = currentItem.reponse.some(
-      (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
+        (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
     );
 
     if (isCorrect) {
@@ -44,7 +46,7 @@ function App() {
         setMessage("");
       }, 1000);
     } else if (attempts >= 1) {
-      setMessage(`Incorrect !}`); // La réponse était : ${currentItem.reponse[0]
+      setMessage(`Incorrect !`); // La réponse était : ${currentItem.reponse[0]
       setTypeMessage("error");
       setAttempts(0);
       setTimeout(() => {
@@ -59,16 +61,18 @@ function App() {
     }
   };
 
+  const handleScoreChange = (newScore: number) => {
+    setScore(newScore);
+  };
+
   return (
     <>
       <main className="main-container">
         <div className="main-container-game">
           <div className="game-header">
-            <h2>Score: {score}</h2>
             <div className="type-indicator">
-              Type: {getTypeLabel(donnee.images[currentImage].type)}
+              {getTypeLabel(donnee.images[currentImage].type)} ?
             </div>
-            <div className="type-indicator">Tentative: {attempts}/2</div>
           </div>
 
           <div className="game-content">
@@ -84,6 +88,7 @@ function App() {
                 onChange={(e) => setUserAnswer(e.target.value)}
                 placeholder="Votre réponse..."
                 className="game-input"
+                autoFocus={true}
               />
               <button type="submit" className="game-button">
                 Valider
@@ -95,7 +100,8 @@ function App() {
         </div>
 
         <div className="main-container-content">
-          <h2>Réponses correctes et boutiques</h2>
+          <CountdownTimer/>
+          <GuessingGame score={score} onScoreChange={handleScoreChange}/>
           <Terminal />
         </div>
       </main>
