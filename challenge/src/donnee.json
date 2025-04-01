@@ -116,7 +116,7 @@
     {
       "id": 15,
       "url": "/img/Wow.jpeg",
-      "reponse": ["World of Warcraft", "wow", "worldofwarcraft"],
+      "reponse": ["World of Warcraft", "worldofwarcraft"],
       "valeur": 1,
       "type": "nom"
     },
@@ -137,7 +137,7 @@
     {
       "id": 18,
       "url": "/img/TiltedTower.jpeg",
-      "reponse": ["tilted towers", "tiltedtowers", "tilted"],
+      "reponse": ["tilted tower", "tiltedtower", "tilted"],
       "valeur": 3,
       "type": "lieu"
     },
@@ -145,8 +145,7 @@
       "id": 19,
       "url": "/img/SummerRift.jpeg",
       "reponse": [
-        "La faille de l'invocateur",
-        "Faille de l'invocateur",
+        "faille de l'invocateur",
         "summoners rift",
         "summonersrift",
         "summoner's rift"
@@ -209,7 +208,7 @@
     {
       "id": 26,
       "url": "/img/Kings Canyon.jpg",
-      "reponse": ["kings canyon", "kingscanyon", "king canyon"],
+      "reponse": ["kings canyon", "kingscanyon", "king's canyon", "king canyon"],
       "valeur": 3,
       "type": "lieu",
       "indice": "La carte où les joueurs se battent pour la domination"
@@ -515,14 +514,14 @@
     {
       "id": 67,
       "url": "/img/TheWitcher-Gerald.jpg",
-      "reponse": ["Gerald"],
+      "reponse": ["Geralt", "Geralt de Riv", "Geralt of Rivia"],
       "valeur": 2,
       "type": "perso"
     },
     {
       "id": 68,
       "url": "/img/TheWitcher.jpg",
-      "reponse": ["The Witcher", "The Witcher 3","the witcher III"],
+      "reponse": ["The Witcher", "Witcher", "The Witcher 3"],
       "valeur": 1,
       "type": "nom"
     },
