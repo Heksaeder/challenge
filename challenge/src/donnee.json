@@ -417,7 +417,7 @@
     },
     {
       "url": "/img/ZeldaTotk-Ganondolf.jpg",
-      "reponse": ["Ganondolf","ganon"],
+      "reponse": ["Ganondorf","ganon"],
       "valeur": 2,
 
       "type": "perso",
@@ -437,7 +437,7 @@
     },
     {
       "url": "/img/TheWitcher.jpg",
-      "reponse": ["The Witcher"],
+      "reponse": ["The Witcher", "The Witcher 3","the witcher III"],
       "valeur": 1,
       "type": "nom"
     },
