@@ -137,27 +137,19 @@
     {
       "id": 18,
       "url": "/img/TiltedTower.jpeg",
-<<<<<<< HEAD
       "reponse": ["tilted tower", "tiltedtower", "tilted"],
-=======
-      "reponse": ["tilted towers", "tiltedtowers","tilted"],
->>>>>>> 75f460c89674965f17a4866ead5da2fca87a081b
       "valeur": 3,
       "type": "lieu"
     },
     {
       "id": 19,
       "url": "/img/SummerRift.jpeg",
-<<<<<<< HEAD
       "reponse": [
         "La faille de l'invocateur",
         "summenors rift",
         "summenorsrift",
         "summenor's rift"
       ],
-=======
-      "reponse": ["La faille de l'invocateur","faille de l'invocateur", "summoners rift", "summonersrift","summoner's rift"],
->>>>>>> 75f460c89674965f17a4866ead5da2fca87a081b
       "valeur": 3,
       "type": "lieu",
       "indice": "Champ de bataille légendaire des invocateurs"
@@ -203,7 +195,13 @@
     {
       "id": 25,
       "url": "/img/PUBG.jpeg",
-      "reponse": ["pubg battlegrounds", "player unknowns battlegrounds","player unknown's battlegrounds","playerunknown's battlegrounds", "pubg"],
+      "reponse": [
+        "pubg battlegrounds",
+        "player unknowns battlegrounds",
+        "player unknown's battlegrounds",
+        "playerunknown's battlegrounds",
+        "pubg"
+      ],
       "valeur": 1,
       "type": "nom"
     },
@@ -218,7 +216,7 @@
     {
       "id": 27,
       "url": "/img/CS Banana.jpeg",
-      "reponse": ["inferno", "banana","banana inferno", "inferno banana"],
+      "reponse": ["inferno", "banana", "banana inferno", "inferno banana"],
       "valeur": 3,
       "type": "lieu",
       "indice": "Le chemin où les confrontations sont inévitables sur la carte légendaire."
@@ -226,7 +224,7 @@
     {
       "id": 28,
       "url": "/img/Valorant Lieu.jpeg",
-      "reponse": ["haven", "Clong", "c long","long c"],
+      "reponse": ["haven", "Clong", "c long", "long c"],
       "valeur": 3,
       "type": "lieu",
       "indice": "Le site avec trois bombes, où tout peut arriver."
@@ -283,7 +281,7 @@
     {
       "id": 36,
       "url": "/img/GtA.jpg",
-      "reponse": ["Grand thief auto", "gtav","gta v", "gta 5","gta5", "gta"],
+      "reponse": ["Grand thief auto", "gtav", "gta v", "gta 5", "gta5", "gta"],
       "valeur": 1,
       "type": "nom"
     },
@@ -504,7 +502,12 @@
     {
       "id": 66,
       "url": "/img/ZeldaTotk.jpg",
-      "reponse": ["Zelda Tears of Kingdom","The Legend of Zelda : Tears of the Kingdom","Tears of the Kingdom","zelda tears of the kingdom"],
+      "reponse": [
+        "Zelda Tears of Kingdom",
+        "The Legend of Zelda : Tears of the Kingdom",
+        "Tears of the Kingdom",
+        "zelda tears of the kingdom"
+      ],
       "valeur": 1,
       "type": "nom"
     },
