@@ -19,6 +19,11 @@ const Terminal = ({
       action: () => "Etape 2: allez voir Térence",
     },
     {
+      name: "rm-f-all-6194",
+      description: "Permet de reussir le challenge",
+      action: () => "Bravo vous avez gagné le challenge 48h !",
+    },
+    {
       name: "clear",
       description: "Clears the terminal",
       action: () => {
@@ -32,9 +37,17 @@ const Terminal = ({
   ];
 
   const [currentIndice, setCurrentIndice] = useState<string | null>(null);
+  const previousIndiceRef = useRef<string | null>(null);
 
   const username = "visitor";
   const outputRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (indice !== previousIndiceRef.current) {
+      setCurrentIndice(null);
+      previousIndiceRef.current = indice;
+    }
+  }, [indice]);
 
   useEffect(() => {
     const input = document.getElementById("commandInput") as HTMLInputElement;
@@ -60,7 +73,7 @@ const Terminal = ({
   }, []);
 
   useEffect(() => {
-    if (timeSpent >= 20000 && indice && !currentIndice) {
+    if (timeSpent >= 5000 && indice && indice.trim() !== "" && !currentIndice) {
       appendUserInput("indice");
       appendOutput(indice);
       setCurrentIndice(indice);

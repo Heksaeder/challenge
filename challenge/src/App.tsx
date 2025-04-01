@@ -17,18 +17,24 @@ function App() {
   );
 
   const startTime = useRef(Date.now());
+  const [isTimerActive, setIsTimerActive] = useState(false);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeSpent(Date.now() - startTime.current);
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
+    let timer: NodeJS.Timeout;
+    if (isTimerActive) {
+      timer = setInterval(() => {
+        setTimeSpent(Date.now() - startTime.current);
+      }, 1000);
+    }
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [isTimerActive]);
 
   useEffect(() => {
     startTime.current = Date.now();
     setTimeSpent(0);
+    setIsTimerActive(!!donnee.images[currentImage].indice);
   }, [currentImage]);
 
   const getTypeLabel = (type: string) => {

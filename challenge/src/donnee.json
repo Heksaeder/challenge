@@ -27,8 +27,7 @@
       "url": "/img/lock.jpeg",
       "reponse": ["locklear", "lock"],
       "valeur": 2,
-      "type": "perso",
-      "indice": "Ton streamer preferé"
+      "type": "perso"
     },
     {
       "id": 5,
