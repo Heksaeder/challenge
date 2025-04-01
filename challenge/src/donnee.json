@@ -20,7 +20,7 @@
     },
     {
       "url": "/img/lock.jpeg",
-      "reponse": ["lockclear", "lock"],
+      "reponse": ["locklear", "lock"],
       "valeur": 2,
       "type": "perso"
     },
@@ -53,9 +53,9 @@
       "url": "/img/R2d2.jpeg",
       "reponse": [
         "red dead redemption 2",
-        "RDD2",
+        "RDR2",
         "red dead redemption",
-        "RDD"
+        "RDR"
       ],
       "valeur": 1,
       "type": "nom"
@@ -82,7 +82,7 @@
     },
     {
       "url": "/img/SoulCalibur.jpeg",
-      "reponse": ["Soulcalibur"],
+      "reponse": ["Soulcalibur", "Soul Calibur"],
       "valeur": 1,
       "type": "nom",
       "indice": "L'arme de l'héros."
@@ -114,20 +114,20 @@
     },
     {
       "url": "/img/TiltedTower.jpeg",
-      "reponse": ["tilted tower", "tiltedtower","tilted"],
+      "reponse": ["tilted towers", "tiltedtowers","tilted"],
       "valeur": 3,
       "type": "lieu"
     },
     {
       "url": "/img/SummerRift.jpeg",
-      "reponse": ["La faille de l'invocateur", "summenors rift", "summenorsrift","summenor's rift"],
+      "reponse": ["La faille de l'invocateur","faille de l'invocateur", "summoners rift", "summonersrift","summoner's rift"],
       "valeur": 3,
       "type": "lieu",
       "indice": "Champ de bataille légendaire des invocateurs"
     },
     {
       "url": "/img/De_dust2_new_v4.jpg",
-      "reponse": ["dust 2", "Dust2", "D2", "dustii"],
+      "reponse": ["dust 2", "Dust2", "D2", "dustii", "dest II", "dustII"],
       "valeur": 3,
       "type": "lieu",
       "indice": "La carte mythique où les bombes font trembler les murs"
@@ -160,7 +160,7 @@
     },
     {
       "url": "/img/PUBG.jpeg",
-      "reponse": ["pubg battleground", "play unknown battleground", "pubg"],
+      "reponse": ["pubg battlegrounds", "player unknowns battlegrounds","player unknown's battlegrounds","playerunknown's battlegrounds", "pubg"],
       "valeur": 1,
       "type": "nom"
     },
@@ -173,14 +173,14 @@
     },
     {
       "url": "/img/CS Banana.jpeg",
-      "reponse": ["inferno", "banana"],
+      "reponse": ["inferno", "banana","banana inferno", "inferno banana"],
       "valeur": 3,
       "type": "lieu",
       "indice": "Le chemin où les confrontations sont inévitables sur la carte légendaire."
     },
     {
       "url": "/img/Valorant Lieu.jpeg",
-      "reponse": ["haven", "Clong", "c long"],
+      "reponse": ["haven", "Clong", "c long","long c"],
       "valeur": 3,
       "type": "lieu",
       "indice": "Le site avec trois bombes, où tout peut arriver."
@@ -229,7 +229,7 @@
     },
     {
       "url": "/img/GtA.jpg",
-      "reponse": ["Grand thief auto", "gtav", "gta 5", "gta"],
+      "reponse": ["Grand thief auto", "gtav","gta v", "gta 5","gta5", "gta"],
       "valeur": 1,
       "type": "nom"
     },
@@ -312,7 +312,7 @@
     },
     {
       "url": "/img/Pac-Man arene.jpg",
-      "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
+      "reponse": ["Pac-Man", "Pacman", "Pac Man",],
       "valeur": 1,
       "type": "nom"
     },
@@ -425,7 +425,7 @@
     },
     {
       "url": "/img/ZeldaTotk.jpg",
-      "reponse": ["Zelda Tears of Kingdom"],
+      "reponse": ["Zelda Tears of Kingdom","The Legend of Zelda : Tears of the Kingdom","Tears of the Kingdom","zelda tears of the kingdom"],
       "valeur": 1,
       "type": "nom"
     },
