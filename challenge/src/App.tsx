@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import Terminal from "./components/Terminal";
 import donnee from "./donnee.json";
-import { log } from "console";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -33,24 +32,23 @@ function App() {
     const isCorrect = currentItem.reponse.some(
       (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
     );
-  
+
     if (isCorrect) {
       setScore(score + currentItem.valeur);
       setMessage(`Correct ! +${currentItem.valeur} points`);
       setTypeMessage("success");
-      setAttempts(0); 
+      setAttempts(0);
       setTimeout(() => {
         setCurrentImage((prev) => (prev + 1) % donnee.images.length);
         setUserAnswer("");
         setMessage("");
       }, 1000);
     } else if (attempts >= 1) {
-      
-      setMessage(`Incorrect !}`);  // La réponse était : ${currentItem.reponse[0]
+      setMessage(`Incorrect !}`); // La réponse était : ${currentItem.reponse[0]
       setTypeMessage("error");
       setAttempts(0);
       setTimeout(() => {
-        setCurrentImage((prev) => (prev + 1) % donnee.images.length);
+        setCurrentImage((prev) => (prev + 1) % donnee.images.length); //setCurrentImage(Math.floor(Math.random() * donnee.images.length))
         setUserAnswer("");
         setMessage("");
       }, 1000);
@@ -70,9 +68,7 @@ function App() {
             <div className="type-indicator">
               Type: {getTypeLabel(donnee.images[currentImage].type)}
             </div>
-            <div className="type-indicator">
-              Tentative: {attempts}/2
-            </div>
+            <div className="type-indicator">Tentative: {attempts}/2</div>
           </div>
 
           <div className="game-content">

@@ -1,42 +1,49 @@
 {
   "images": [
     {
+      "id": 1,
       "url": "/img/Laracroft.jpg",
       "reponse": ["Lara Croft"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 2,
       "url": "/img/fugu.jpg",
       "reponse": ["fugu"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 3,
       "url": "/img/doigby.jpg",
       "reponse": ["doigby", "doig"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 4,
       "url": "/img/lock.jpeg",
       "reponse": ["lockclear", "lock"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 5,
       "url": "/img/gota.jpeg",
       "reponse": ["gotaga", "gota", "french monster"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 6,
       "url": "/img/zen.jpeg",
       "reponse": ["zen"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 7,
       "url": "/img/mawkzy.png",
       "reponse": ["mawkzy"],
       "valeur": 2,
@@ -44,12 +51,14 @@
       "indice": "Joueur pro connu pour ses moves aériens"
     },
     {
+      "id": 8,
       "url": "/img/Nether.jpeg",
       "reponse": ["nether"],
       "valeur": 3,
       "type": "lieu"
     },
     {
+      "id": 9,
       "url": "/img/R2d2.jpeg",
       "reponse": [
         "red dead redemption 2",
@@ -61,12 +70,14 @@
       "type": "nom"
     },
     {
+      "id": 10,
       "url": "/img/Cyberpunk.jpeg",
       "reponse": ["Cyberpunk 2077", "Cyberpunk"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 11,
       "url": "/img/Night CityCyberpunk.jpeg",
       "reponse": ["NightCity", "Night City"],
       "valeur": 3,
@@ -74,13 +85,20 @@
       "indice": "Ville futuriste où la cybernétique règne en maître."
     },
     {
+      "id": 12,
       "url": "/img/Hyrule.jpg",
-      "reponse": ["Hyrule","chateau d'hyrule","chateau hyrule","chateau dhyrule"],
+      "reponse": [
+        "Hyrule",
+        "chateau d'hyrule",
+        "chateau hyrule",
+        "chateau dhyrule"
+      ],
       "valeur": 3,
       "type": "lieu",
       "indice": "Terre légendaire du héros du temps."
     },
     {
+      "id": 13,
       "url": "/img/SoulCalibur.jpeg",
       "reponse": ["Soulcalibur"],
       "valeur": 1,
@@ -88,44 +106,56 @@
       "indice": "L'arme de l'héros."
     },
     {
+      "id": 14,
       "url": "/img/Azeroth.jpg",
       "reponse": ["azeroth"],
       "valeur": 3,
       "type": "lieu",
-      "indice": "Monde épique où l’Alliance et la Horde s’affrontent."
+      "indice": "Monde épique où l'Alliance et la Horde s'affrontent."
     },
     {
+      "id": 15,
       "url": "/img/Wow.jpeg",
       "reponse": ["World of Warcraft", "wow", "worldofwarcraft"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 16,
       "url": "/img/Dot.jpg",
       "reponse": ["dota 2", "dota2", "dota"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 17,
       "url": "/img/Tetrus.jpeg",
       "reponse": ["tetris"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 18,
       "url": "/img/TiltedTower.jpeg",
-      "reponse": ["tilted tower", "tiltedtower","tilted"],
+      "reponse": ["tilted tower", "tiltedtower", "tilted"],
       "valeur": 3,
       "type": "lieu"
     },
     {
+      "id": 19,
       "url": "/img/SummerRift.jpeg",
-      "reponse": ["La faille de l'invocateur", "summenors rift", "summenorsrift","summenor's rift"],
+      "reponse": [
+        "La faille de l'invocateur",
+        "summenors rift",
+        "summenorsrift",
+        "summenor's rift"
+      ],
       "valeur": 3,
       "type": "lieu",
       "indice": "Champ de bataille légendaire des invocateurs"
     },
     {
+      "id": 20,
       "url": "/img/De_dust2_new_v4.jpg",
       "reponse": ["dust 2", "Dust2", "D2", "dustii"],
       "valeur": 3,
@@ -133,6 +163,7 @@
       "indice": "La carte mythique où les bombes font trembler les murs"
     },
     {
+      "id": 21,
       "url": "/img/zywoo.jpg",
       "reponse": ["zywoo"],
       "valeur": 2,
@@ -140,6 +171,7 @@
       "indice": "Le sniper français qui fait trembler la scène CS"
     },
     {
+      "id": 22,
       "url": "/img/S1mple.jpg",
       "reponse": ["s1mple", "simple"],
       "valeur": 2,
@@ -147,24 +179,28 @@
       "indice": "Le joueur ukrainien qui a marqué l'histoire du CS"
     },
     {
+      "id": 23,
       "url": "/img/Bugha.jpg",
       "reponse": ["bugha", "buga"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 24,
       "url": "/img/Tenz.jpeg",
       "reponse": ["tenz", "zzzzzzzzzz", "sen tenz"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 25,
       "url": "/img/PUBG.jpeg",
       "reponse": ["pubg battleground", "play unknown battleground", "pubg"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 26,
       "url": "/img/Kings Canyon.jpg",
       "reponse": ["kings canyon", "kingscanyon", "king canyon"],
       "valeur": 3,
@@ -172,6 +208,7 @@
       "indice": "La carte où les joueurs se battent pour la domination"
     },
     {
+      "id": 27,
       "url": "/img/CS Banana.jpeg",
       "reponse": ["inferno", "banana"],
       "valeur": 3,
@@ -179,6 +216,7 @@
       "indice": "Le chemin où les confrontations sont inévitables sur la carte légendaire."
     },
     {
+      "id": 28,
       "url": "/img/Valorant Lieu.jpeg",
       "reponse": ["haven", "Clong", "c long"],
       "valeur": 3,
@@ -186,84 +224,98 @@
       "indice": "Le site avec trois bombes, où tout peut arriver."
     },
     {
+      "id": 29,
       "url": "/img/Rl-Fennec.jpeg",
       "reponse": ["fennec"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 30,
       "url": "/img/RocketLeague.jpeg",
       "reponse": ["rocket league", "rocketleague"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 31,
       "url": "/img/SF Ryu.jpeg",
       "reponse": ["ryu"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 32,
       "url": "/img/SF.jpeg",
       "reponse": ["street fighter", "streetfighter"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 33,
       "url": "/img/Cod-Captaine Price.jpeg",
-      "reponse": ["Captain Price","Price"],
+      "reponse": ["Captain Price", "Price"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 34,
       "url": "/img/Cod.jpeg",
-      "reponse": ["Call of duty","cod"],
+      "reponse": ["Call of duty", "cod"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 35,
       "url": "/img/GTA-trevor.jpeg",
       "reponse": ["Trevor"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 36,
       "url": "/img/GtA.jpg",
       "reponse": ["Grand thief auto", "gtav", "gta 5", "gta"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 37,
       "url": "/img/JustDance.jpeg",
       "reponse": ["just dance", "justdance"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 38,
       "url": "/img/DragonGuest.jpg",
-      "reponse": ["dragon quest","dragonquest"],
+      "reponse": ["dragon quest", "dragonquest"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 39,
       "url": "/img/Horizon-Aloy.jpeg",
       "reponse": ["aloy"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 40,
       "url": "/img/Godofwar.jpeg",
       "reponse": ["god of war", "godofwar"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 41,
       "url": "/img/Fifa-LionelMessi.jpg",
       "reponse": ["messi", "lionel messi", "goat"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 42,
       "url": "/img/Aku Aku (Bandicoot).jpg",
       "reponse": ["Aku Aku"],
       "valeur": 2,
@@ -271,12 +323,14 @@
       "indice": "Le masque protecteur qui guide le héros dans ses aventures"
     },
     {
+      "id": 43,
       "url": "/img/Alan Wake.jpg",
       "reponse": ["Alan Wake"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 44,
       "url": "/img/Arbre Monde.jpg",
       "reponse": ["Arbre Monde"],
       "valeur": 3,
@@ -284,6 +338,7 @@
       "indice": "Le lieu sacré où la vie et la magie sont liées"
     },
     {
+      "id": 45,
       "url": "/img/Ashen one.jpg",
       "reponse": ["Ashen one"],
       "valeur": 2,
@@ -291,199 +346,225 @@
       "indice": "Le héros silencieux destiné à raviver la flamme dans un monde en ruines"
     },
     {
+      "id": 46,
       "url": "/img/Buster Sword (ff7).jpg",
       "reponse": ["Buster Sword"],
       "valeur": 2,
       "type": "perso",
-      "indice": "L’épée emblématique du mercenaire au cœur de l’aventure"
+      "indice": "L'épée emblématique du mercenaire au cœur de l'aventure"
     },
     {
+      "id": 47,
       "url": "/img/Leon Scott Resident Evil.webp",
-      "reponse": ["Leon Scott Kennedy", "Leon Scott","leon"],
+      "reponse": ["Leon Scott Kennedy", "Leon Scott", "leon"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 48,
       "url": "/img/Madeline.jpg",
       "reponse": ["Madeline"],
-
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 49,
       "url": "/img/Pac-Man arene.jpg",
       "reponse": ["Pac-Man", "Pacman", "Pac Man", "Pac man"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 50,
       "url": "/img/Scorpion Mortal kombat.jpg",
       "reponse": ["Scorpion"],
-
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 51,
       "url": "/img/Sims.png",
       "reponse": ["Sims", "Les Sims", "Sims 4", "Les Sims 4"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 52,
       "url": "/img/sledge.jpg",
       "reponse": ["Sledge"],
-
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 53,
       "url": "/img/splatoon arene.jpg",
       "reponse": ["Splatoon", "Splatoon 2"],
       "valeur": 3,
       "type": "lieu",
-      "indice": "L’arène où les couleurs s’affrontent pour la domination."
+      "indice": "L'arène où les couleurs s'affrontent pour la domination."
     },
     {
+      "id": 54,
       "url": "/img/Undertale.png",
-
       "reponse": ["Undertale"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 55,
       "url": "/img/Vault Boy (Fallout).jpg",
       "reponse": ["Vault Boy", "Fallout"],
-
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 56,
       "url": "/img/zelda.jpg",
       "reponse": ["Zelda", "The Legend of Zelda"],
-
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 57,
       "url": "/img/Fifa.jpg",
       "reponse": ["Fifa"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 58,
       "url": "/img/Assassin'sCreedBro.jpg",
-      "reponse": ["Assassin's Creed", "Assassins creed", "assassincreed","assassinscreed"],
+      "reponse": [
+        "Assassin's Creed",
+        "Assassins creed",
+        "assassincreed",
+        "assassinscreed"
+      ],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 59,
       "url": "/img/Halo-MasterChief.jpeg",
       "reponse": ["MasterChief", "Master Chief"],
       "valeur": 2,
-
       "type": "perso"
     },
     {
+      "id": 60,
       "url": "/img/Halo.jpg",
       "reponse": ["Halo"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 61,
       "url": "/img/Pikmin-Olimar.png",
       "reponse": ["Olimar"],
       "valeur": 2,
-
       "type": "perso"
     },
     {
+      "id": 62,
       "url": "/img/Pikmin.jpg",
       "reponse": ["Pikmin"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 63,
       "url": "/img/Cuphead-Cuphead.jpeg",
       "reponse": ["Cuphead"],
       "valeur": 2,
-
       "type": "perso"
     },
     {
+      "id": 64,
       "url": "/img/Cuphead.jpeg",
       "reponse": ["Cuphead"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 65,
       "url": "/img/ZeldaTotk-Ganondolf.jpg",
-      "reponse": ["Ganondolf","ganon"],
+      "reponse": ["Ganondolf", "ganon"],
       "valeur": 2,
-
       "type": "perso",
-      "indice": "L’antagoniste maléfique à la quête de domination éternelle"
+      "indice": "L'antagoniste maléfique à la quête de domination éternelle"
     },
     {
+      "id": 66,
       "url": "/img/ZeldaTotk.jpg",
       "reponse": ["Zelda Tears of Kingdom"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 67,
       "url": "/img/TheWitcher-Gerald.jpg",
       "reponse": ["Gerald"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 68,
       "url": "/img/TheWitcher.jpg",
       "reponse": ["The Witcher"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 69,
       "url": "/img/-cappy.jpeg",
       "reponse": ["Cappy"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 70,
       "url": "/img/MOdyssey.jpeg",
-      "reponse": ["Super Mario Odyssey","mario odyssey"],
+      "reponse": ["Super Mario Odyssey", "mario odyssey"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 71,
       "url": "/img/Lol-jinx.jpeg",
       "reponse": ["Jinx"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 72,
       "url": "/img/Lol.jpeg",
       "reponse": ["League of Legends"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 73,
       "url": "/img/Minecraft-Steve.jpg",
       "reponse": ["Steve"],
       "valeur": 1,
       "type": "perso"
     },
     {
+      "id": 74,
       "url": "/img/Minecraft.jpeg",
       "reponse": ["Minecraft"],
       "valeur": 1,
       "type": "nom"
     },
     {
+      "id": 75,
       "url": "/img/Fornite-Jonesy.jpg",
       "reponse": ["Jonesy"],
       "valeur": 2,
       "type": "perso"
     },
     {
+      "id": 76,
       "url": "/img/Fortnite.jpg",
       "reponse": ["Fortnite"],
       "valeur": 1,
