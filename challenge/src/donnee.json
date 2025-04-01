@@ -312,7 +312,7 @@
     },
     {
       "url": "/img/Pac-Man arene.jpg",
-      "reponse": ["Pac-Man", "Pacman", "Pac Man",],
+      "reponse": ["Pac-Man", "Pacman", "Pac Man"],
       "valeur": 1,
       "type": "nom"
     },
