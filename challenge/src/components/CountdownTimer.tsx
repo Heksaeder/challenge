@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from "react";
+import Modal from "./Modal";
 
-const CountdownTimer = () => {
+interface CountdownTimerProps {
+    onCountdownStart: () => void;
+}
+
+const CountdownTimer: React.FC<CountdownTimerProps> = ({ onCountdownStart }) => {
     const [duration, setDuration] = useState(15); // default duration in minutes
     const [countdownStarted, setCountdownStarted] = useState(false);
     const [timeRemaining, setTimeRemaining] = useState(0);
     const [eventTime, setEventTime] = useState(0);
+    const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
         if (countdownStarted) {
@@ -12,16 +18,13 @@ const CountdownTimer = () => {
                 const currentTime = new Date().getTime();
                 let remainingTime = eventTime - currentTime;
 
-
-                if (remainingTime <= 840000) {
-                    // 14 minutes
-                }
-
-
                 if (remainingTime <= 0) {
                     remainingTime = 0;
                     clearInterval(countdownInterval);
-                    alert("Countdown complete!");
+                }
+
+                if (remainingTime <= 5000) {
+                    setShowModal(true);
                 }
 
                 setTimeRemaining(remainingTime);
@@ -35,6 +38,7 @@ const CountdownTimer = () => {
         const currentTime = new Date().getTime();
         setEventTime(currentTime + duration * 60000);
         setCountdownStarted(true);
+        onCountdownStart();
         localStorage.setItem("duration", duration.toString());
     };
 
@@ -87,6 +91,7 @@ const CountdownTimer = () => {
                     </div>
                 </>
             )}
+            {showModal && <Modal timeRemaining={timeRemaining} />}
         </div>
     );
 };

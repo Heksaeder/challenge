@@ -16,7 +16,8 @@ const Terminal = ({
     {
       name: "nextstep",
       description: "Voir Terence",
-      action: () => "Etape 2: allez voir Térence",
+      action: () => "Le chercheur Isaac Nvintel a confié la première partie du code à son plus fidèle confrère, le" +
+          " professeur Férut",
     },
     {
       name: "rm-f-all-6194",

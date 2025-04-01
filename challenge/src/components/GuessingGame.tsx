@@ -8,14 +8,14 @@ interface GuessingGameProps {
 const GuessingGame: React.FC<GuessingGameProps> = ({ score, onScoreChange }) => {
     const [currentScore, setCurrentScore] = useState(score);
     const [letters, setLetters] = useState([
-        { letter: "N", disabled: false },
-        { letter: "E", disabled: false },
-        { letter: "X", disabled: false },
-        { letter: "T", disabled: false },
-        { letter: "S", disabled: false },
-        { letter: "T", disabled: false },
-        { letter: "E", disabled: false },
-        { letter: "P", disabled: false },
+        { letter: "N", disabled: false, price: 15 },
+        { letter: "E", disabled: false, price: 16 },
+        { letter: "X", disabled: false, price: 17 },
+        { letter: "T", disabled: false, price: 18 },
+        { letter: "S", disabled: false, price: 19 },
+        { letter: "T", disabled: false, price: 15 },
+        { letter: "E", disabled: false, price: 16 },
+        { letter: "P", disabled: false, price: 17 },
     ]);
 
     useEffect(() => {
@@ -23,8 +23,8 @@ const GuessingGame: React.FC<GuessingGameProps> = ({ score, onScoreChange }) => 
     }, [score]);
 
     const handleLetterClick = (index: number) => {
-        if (currentScore >= 16) {
-            const newScore = currentScore - 16;
+        if (currentScore >= letters[index].price) {
+            const newScore = currentScore - letters[index].price;
             setCurrentScore(newScore);
             onScoreChange(newScore);
             setLetters(letters.map((item, i) =>
@@ -36,8 +36,9 @@ const GuessingGame: React.FC<GuessingGameProps> = ({ score, onScoreChange }) => 
     return (
         <>
             <div>
-                <p>L'objectif de ce défi est de découvrir la commande à entrer dans le terminal en achetant chaque lettre à l'aide des points remportés pour chaque réponse correcte</p>
-                <p>Current Score: {currentScore}</p>
+                <div className={`texte-explicatif`}>Une commande terminal est requise pour accéder au code déclenchant le programme mettant fin à l'existence de Nemesis. Chaque réponse vous vaudra des points afin de débloquer les caractères de la commande selon la valeur indiquée dans l'angle inférieur droit. Soyez rapides, soyez efficaces mais surtout, soyez patients. Le monde repose sur vos épaules.</div>
+                <span className={`current-score`}>${currentScore}</span>
+                <div className="letters">
                 {letters.map((item, index) => (
                     <button
                         key={index}
@@ -46,8 +47,10 @@ const GuessingGame: React.FC<GuessingGameProps> = ({ score, onScoreChange }) => 
                         className={`letter-button ${item.disabled ? 'disabled' : ''}`}
                     >
                         {item.disabled ? item.letter : "?"}
+                        <span className="letter-price">{item.price}</span>
                     </button>
                 ))}
+                </div>
             </div>
         </>
     );

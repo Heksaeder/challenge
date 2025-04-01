@@ -13,8 +13,10 @@ function App() {
   const [attempts, setAttempts] = useState(0);
   const [timeSpent, setTimeSpent] = useState(0);
   const [typeMessage, setTypeMessage] = useState<"success" | "error" | "retry">(
-    "success"
+      "success"
   );
+  const [showGame, setShowGame] = useState(false);
+  const [incorrectImages, setIncorrectImages] = useState<number[]>([]);
 
   const startTime = useRef(Date.now());
   const [isTimerActive, setIsTimerActive] = useState(false);
@@ -37,6 +39,13 @@ function App() {
     setIsTimerActive(!!donnee.images[currentImage].indice);
   }, [currentImage]);
 
+  useEffect(() => {
+    if (currentImage === donnee.images.length - 1 && incorrectImages.length > 0) {
+      donnee.images.push(...incorrectImages.map(index => donnee.images[index]));
+      setIncorrectImages([]);
+    }
+  }, [currentImage, incorrectImages]);
+
   const getTypeLabel = (type: string) => {
     switch (type) {
       case "perso":
@@ -52,85 +61,102 @@ function App() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const currentItem = donnee.images[currentImage];
-    const isCorrect = currentItem.reponse.some(
-      (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
-    );
+    setTimeout(() => {
+      const currentItem = donnee.images[currentImage];
+      const isCorrect = currentItem.reponse.some(
+          (rep) => rep.toLowerCase() === userAnswer.toLowerCase()
+      );
 
-    if (isCorrect) {
-      setScore(score + currentItem.valeur);
-      setMessage(`Correct ! +${currentItem.valeur} points`);
-      setTypeMessage("success");
-      setAttempts(0);
-      setTimeout(() => {
-        setCurrentImage((prev) => (prev + 1) % donnee.images.length);
-        setUserAnswer("");
-        setMessage("");
-      }, 1000);
-    } else if (attempts >= 1) {
-      setMessage(`Incorrect !`); // La réponse était : ${currentItem.reponse[0]
-      setTypeMessage("error");
-      setAttempts(0);
-      setTimeout(() => {
-        setCurrentImage((prev) => (prev + 1) % donnee.images.length); //setCurrentImage(Math.floor(Math.random() * donnee.images.length))
-        setUserAnswer("");
-        setMessage("");
-      }, 1000);
-    } else {
-      setMessage("Nope, réessaye !");
-      setTypeMessage("retry");
-      setAttempts(attempts + 1);
-    }
+      if (isCorrect) {
+        setScore(score + currentItem.valeur);
+        setMessage(`Correct ! +${currentItem.valeur} points`);
+        setTypeMessage("success");
+        setAttempts(0);
+        setTimeout(() => {
+          setCurrentImage((prev) => (prev + 1) % donnee.images.length);
+          setUserAnswer("");
+          setMessage("");
+        }, 1000);
+      } else if (attempts >= 1) {
+        setMessage(`Incorrect !`);
+        setTypeMessage("error");
+        setAttempts(0);
+        setIncorrectImages((prev) => [...prev, currentImage]);
+        setTimeout(() => {
+          setCurrentImage((prev) => (prev + 1) % donnee.images.length);
+          setUserAnswer("");
+          setMessage("");
+        }, 1000);
+      } else {
+        setMessage("Nope, réessaye !");
+        setTypeMessage("retry");
+        setAttempts(attempts + 1);
+      }
+    }, 50);
   };
 
   const handleScoreChange = (newScore: number) => {
     setScore(newScore);
   };
 
+  const handleCountdownStart = () => {
+    shuffleArray(donnee.images);
+    setShowGame(true);
+  };
+
+  function shuffleArray(array: any[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
   return (
-    <>
       <main className="main-container">
         <div className="main-container-game">
-          <div className="game-header">
-            <div className="type-indicator">
-              {getTypeLabel(donnee.images[currentImage].type)} ?
-            </div>
-          </div>
+          {showGame && (
+              <>
+                <div className="game-header">
+                  <div className="type-indicator">
+                    {getTypeLabel(donnee.images[currentImage].type)} ?
+                  </div>
+                </div>
 
-          <div className="game-content">
-            <img
-              src={donnee.images[currentImage].url}
-              alt="Image à deviner"
-              className="game-image"
-            />
-            <form onSubmit={handleSubmit} className="game-form">
-              <input
-                type="text"
-                value={userAnswer}
-                onChange={(e) => setUserAnswer(e.target.value)}
-                placeholder="Votre réponse..."
-                className="game-input"
-                autoFocus={true}
-              />
-              <button type="submit" className="game-button">
-                Valider
-              </button>
-            </form>
-          </div>
-
+                <div className="game-content">
+                  <img
+                      src={donnee.images[currentImage].url}
+                      alt="Image à deviner"
+                      className="game-image"
+                  />
+                  <form onSubmit={handleSubmit} className="game-form">
+                    <input
+                        type="text"
+                        value={userAnswer}
+                        onChange={(e) => setUserAnswer(e.target.value)}
+                        placeholder="Votre réponse..."
+                        className="game-input"
+                        autoFocus={true}
+                    />
+                    <button type="submit" className="game-button">
+                      Valider
+                    </button>
+                  </form>
+                </div>
+              </>
+          )}
           {message && <p className={`message ${typeMessage}`}>{message}</p>}
         </div>
 
         <div className="main-container-content">
-          <CountdownTimer />
+          <CountdownTimer onCountdownStart={handleCountdownStart} />
           <GuessingGame score={score} onScoreChange={handleScoreChange} />
           <Terminal
-            indice={donnee.images[currentImage].indice || ""}
-            timeSpent={timeSpent}
+              indice={donnee.images[currentImage].indice || ""}
+              timeSpent={timeSpent}
           />
         </div>
       </main>
-    </>
   );
 }
 

@@ -97,6 +97,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
 }
 
 .message.success {
@@ -161,17 +162,40 @@
   font-weight: 500;
 }
 
+.letters {
+    display: flex;
+    height: 160px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .letter-button {
     padding: 10px 20px;
     background-color: #3b204b;
     color: #ffffff;
     border: none;
+    width:60px;
+    height:60px;
     margin: 5px;
     border-radius: 5px;
     font-size:2em;
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.2s;
+}
+
+.letter-button {
+    position: relative;
+}
+
+.letter-price {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.4em;
+    color: #fff;
 }
 
 .letter-button:hover {
@@ -209,4 +233,55 @@
 
 .control-buttons {
   display:none;
+}
+
+.current-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #594083;
+    color: #ffffff;
+}
+
+.texte-explicatif {
+    display: flex;
+    text-align:justify;
+    align-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3b204b;
+    color: #ffffff;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    color: red;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.countdown {
+    font-size: 5rem;
+}
+
+.game-over {
+    font-size: 5rem;
 }
